@@ -1,29 +1,53 @@
 # Web Teknolojileri Projesi
-### Proje AmacÄ±:
-Bu repository _Sakarya Ãœniversitesi_ bilgisayar mÃ¼hendisliÄŸi ***Web Teknolojileri*** dersi projesinin paylaÅŸÄ±lmasÄ± amacÄ±yla oluÅŸturulmuÅŸtur.Kod incelemesi yaparak bana destek olun.Benimle aÅŸaÄŸÄ±daki adreslerden iletiÅŸime geÃ§ebilirsiniz.
+### Proje Amacı:
+Bu repository _Sakarya Üniversitesi_ bilgisayar mühendisliği ***Web Teknolojileri*** dersi projesinin paylaşılması amacıyla oluşturulmuştur.Kod incelemesi yaparak bana destek olun.Benimle aşağıdaki adreslerden iletişime geçebilirsiniz.
 
-### Projede KullanÄ±lacak teknolojiler:
+### Projede Kullanılacak teknolojiler:
 + HTML
 + CSS
 + PHP
 + Javascript
 + Vue.js
 + Bootstrap
-+ Sass
 
-### Proje DetaylarÄ±:
-  Bu projede amaÃ§ yukarÄ±daki bahsi geÃ§en teknolojilerdeki tecrÃ¼bemi arttÄ±rmak amacÄ±yla kiÅŸisel web sitesi yapÄ±lmasÄ±dÄ±r.SÃ¶z konusu sitede giriÅŸ niteliÄŸinde kendimi tanÄ±ttÄ±ÄŸÄ±m bir ***hakkÄ±mda*** sayfasÄ± , cv niteliÄŸinde ***eÄŸitim*** sayfasÄ± , memleketim olan _[GÃ¶rele](https://goo.gl/maps/6LbcmWXepe6cECG68)_'nin nÃ¼fus, Ã¼nlÃ¼ ÅŸeyleri, gezilecek yerler gibi Ã¶zelliklerini anlatan ve sayfa baÅŸÄ±nda slider ile anlatÄ±lan konular hakkÄ±nda grafikler ve resimler bulunacaÄŸÄ± ***ÅŸehrim*** sayfasÄ± , _[GÃ¶rele](https://goo.gl/maps/6LbcmWXepe6cECG68)_'nin kÃ¼ltÃ¼rel mirasÄ±nÄ± antana ve tÃ¼m _HTML_ elemanlarÄ±nÄ± iÃ§eren ***mirasÄ±mÄ±z*** sayfasÄ± , _PHP_ ve _Vue.js_ ile girilen ÅŸifre kullanÄ±cÄ± adÄ± gibi deÄŸiÅŸkenleri _[regex](https://tr.wikipedia.org/wiki/D%C3%BCzenli_ifade)_ ve _Javascript_ ile dÃ¼zenleneceÄŸi ve  doÄŸrulanÄ±nca bir ***admin*** sayfasÄ±na yÃ¶nlendirileceÄŸi ***login*** sayfasÄ± bulunacaktÄ±r.
+### Proje Detayları:
+  Bu projede amaç yukarıdaki bahsi geçen teknolojilerdeki tecrübemi arttırmak amacıyla kişisel web sitesi yapılmasıdır.Söz konusu sitede giriş niteliğinde kendimi tanıttığım bir ***[hakkımda](/src/views/hakkimda.vue)*** sayfası , cv niteliğinde ***[eğitim](/src/views/egitim.vue)*** sayfası , memleketim olan _[Görele](https://www.gorele.bel.tr)_'nin nüfus, ünlü şeyleri, gezilecek yerler gibi özelliklerini anlatan ve sayfa başında slider ile anlatılan konular hakkında grafikler ve resimler bulunacağı ***[şehrim](/src/views/sehrim.vue)*** sayfası , _Görele_'nin kültürel mirasını anlatan ve tüm _HTML_ elemanlarını içeren ***[mirasımız](/src/views/mirasimiz.vue)*** sayfası , _PHP_ ile girilen şifre kullanıcı adı gibi değişkenleri _[regex](https://tr.wikipedia.org/wiki/D%C3%BCzenli_ifade)_ ve _Vue.js_ ile düzenleneceği ve  doğrulanınca bir ***[admin](/src/views/admin.vue)*** sayfasına yönlendirileceği ***[login](/src/views/login.vue)*** sayfası bulunacaktır.
 
-Sayfalar arasÄ± geÃ§iÅŸ bir navigasyon barÄ± ile yapÄ±lacaktÄ±r .Web sayfasÄ±nÄ±n *[Single-page application](https://tr.wikipedia.org/wiki/Tek_sayfa_uygulamas%C4%B1)* olmasÄ± planlanmÄ±ÅŸtÄ±r.
+Sayfalar arası geçiş bir navigasyon barı ile yapılacaktır.Site responsive yapıda olacaktır .Web sayfasının *[single page application](https://tr.wikipedia.org/wiki/Tek_sayfa_uygulamas%C4%B1)* olması planlanmıştır <sup id="a1"> [1](#f1)</sup> .
 
+#### Sayfanın canlı haline adres çubuğuna "[saracalihan.github.io](https://saracalihan.github.io/)" yazarak ulaçabilirsiniz.
+
+> **Aşağıdaki kodları terminalde dosya konumundayken kullanın.**
+
+### Derlemele ve yeniden yüklemele
+```
+npm run serve
+yarn serve
+```
+
+### Üretim için derler ve küçültür
+```
+npm run build
+```
+
+### Dosyaları Lintler ve fixler
+```
+npm run lint
+```
+
+### Konfigrasyon 
+Bkz: [Konfigrasyon referansı](https://cli.vuejs.org/config/).
 
 ***
-_Alihan SARAÃ‡_
+_Alihan SARAÇ_
 
 E // <saracalihan@gmail.com>
 
-A // [SaÃ¼ BiliÅŸim ve Bilgisayar FakÃ¼ltesi/Serdivan/SAKARYA](https://goo.gl/maps/9vEdj7QYgKpruSus7 "Okul")
+A // [Saü Bilişim ve Bilgisayar Fakültesi/Serdivan/SAKARYA](https://goo.gl/maps/9vEdj7QYgKpruSus7 "Okul")
 
 >30/03/2020
 
-![SAÃœ](https://upload.wikimedia.org/wikipedia/tr/d/de/Sakarya_%C3%9Cniversitesi_Logosu.png) ![Web Teknolojileri](https://polatpanel.com/public/default/upload/service/56f3a669e5e2aweb-yazilim.jpg) 
+![SAÜ](https://upload.wikimedia.org/wikipedia/tr/d/de/Sakarya_%C3%9Cniversitesi_Logosu.png) ![Web Teknolojileri](https://polatpanel.com/public/default/upload/service/56f3a669e5e2aweb-yazilim.jpg) 
+
+***
+<b id="f1"> [1]: </b> Kesinlik bulunmamakla birlikte planlama bu şekilde yapılmıştır, değişiklik yapılabilir. [?](#a1)

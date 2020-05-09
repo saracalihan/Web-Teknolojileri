@@ -1,0 +1,130 @@
+#body {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: black;
+  }
+
+  #footer {
+    background: rgba(46, 62, 80, 0.9);
+    height: 80px;
+    text-align:center;
+    color: #00A63E;
+  }
+  
+  @font-face {
+    font-family: fontum;
+    src: url(font.ttf);
+  }
+  .logo{
+    padding: 30px;
+    font-family: fontum;
+    font-size: 180%;
+    align: left;
+    color: #0C853F;
+  }
+  
+  .page{
+      font-size: x-large;
+  }
+
+  .icon{
+    width: 80px;
+    padding: 10px;
+  
+  }
+  
+  .icons{
+    display: inline;
+    position: relative;
+  }
+  
+  #sekmeler{
+    left: 20%;
+    display: inline;
+    position: relative;
+  }
+  
+  #login{
+    display: inline;
+    position: relative;
+    left: 30%;
+    border: 2px solid #00A63E ;
+    border-radius:  5px;
+  }
+  
+  
+  #nav {
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #00A63E;
+  }
+  
+  #footer {
+    background-color: white;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #00A63E;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .picture{
+    width: 170px;
+    height: 220px;
+    position: relative;
+    left: 43%;
+    top: 40px;
+    border: 10px solid ;
+    border-radius: 5px;
+    border-color: rgb(5, 68, 30);
+  }
+  
+  .links{
+    color: black;
+    text-decoration-line: none;
+  }
+  
+  .links:hover{
+    color: #00A63E;
+    text-decoration-line: none;
+  }
+  
+  .icerik{
+    border: 10px solid ;
+    border-radius: 5px;
+    border-color: rgb(2, 54, 23);
+    background-color: white;
+    left: 43%;
+    width: 60%;
+    height: 10%;
+  }
+  
+  .home{ 
+    background-image: url(../pictures/background.jpeg);
+    background-size: contain;
+    background-repeat: repeat;
+  }
+  
+  #nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #00A63E;
+  }
+
+  
+  #nav a:hover {
+    border: 2px solid #0C853F;
+    background-color: #00A63E;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: x-large;
+    text-decoration: none;
+  }
+  
+  
