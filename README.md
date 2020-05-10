@@ -51,4 +51,4 @@ A // [Saü Bilişim ve Bilgisayar Fakültesi/Serdivan/SAKARYA](https://goo.gl/ma
 
 ***
 <b id="f1"> [1]: </b> Kesinlik bulunmamakla birlikte planlama bu şekilde yapılmıştır, değişiklik yapılabilir. [?](#a1)
-<b id="f1"> [2]: </b> Dosya boyutunun yüksekliği nedeniyle proje single page yapılmamıştır.Vue.js bu yüzden tercih edilmemiştir.
+<b id="f1"> [2]: </b> Dosya boyutunun büyüklüğü nedeniyle proje single page yapılmamıştır.Vue.js bu yüzden tercih edilmemiştir.
