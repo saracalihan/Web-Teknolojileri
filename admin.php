@@ -12,7 +12,7 @@
   <body>
 
     <nav > <!-- navigasyon cubugu -->
-      <a class="logo" href="hakkimda.html">AlihanSaraç  </a>
+      <a class="logo" href="index.html">AlihanSaraç  </a>
       <div id="sekmeler">
         <a href="egitim.html" >Eğitim</a> |
         <a href="sehrim.html">Şehrim</a> |
@@ -22,17 +22,21 @@
       </div>
     </nav>
     
-    <div class="admin">
+    <div class="adminIletisim">
+    <div class="row">
+      <div class="col adminIletisimTablo">
     <?php if($_POST["name"]=="a@a.com" && $_POST["password"]==123456)
 			{
-        {echo" <h1>Merhaba ".$_POST["name"]."</h1>";}
-        return;
+        echo"Merhaba ".$_POST["name"];
+        echo"<br>Girişin Onaylandı.";
       }
       else{
         echo "Kullanıcı epostası yada şifre hatalı";
         header("refresh:2; login.html");
       }    
-				?>
+        ?>
+        </div>
+      </div>
     </div>
 
     <div id="footer"><!-- footer cubugu -->
